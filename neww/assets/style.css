@@ -1,0 +1,57 @@
+:root{
+    --light: #fff;
+    --dark: #000;
+    --primary: #ff2868;
+    --light-rgb: 255, 255, 255;
+    --dark-rgb: 0, 0, 0;
+    --primary-rgb: 255, 40, 104;
+    --bg-grid-opacity: 0.05;
+    --default-cursor: url(assets/img/arrow2.png), auto;
+    --pointer-cursor: url(assets/img/pointer2.png), pointer;
+    
+}
+
+*{
+    padding: o;
+    margin: 0;
+    cursor: url(/assets/img/pointer2.png), auto;
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: black;    */
+
+}
+
+.one{  
+    color: white;
+    display: grid;
+    place-items: center;
+    /* position: fixed;
+    top: 50%; */
+    width: 100%;
+    height: 100vh;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: rgb(255, 0, 0);
+    z-index: 0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.two{  
+    color: white;
+    display: grid;
+    place-items: center;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+}
+.cursor:hover{
+    cursor: url(/assets/img/arrow2.png), auto;
+}
